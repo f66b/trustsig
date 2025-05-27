@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TrustSig Landing Page
 
-## Getting Started
+A fully responsive, professional landing page for TrustSig - a decentralized legal contract management and arbitration platform powered by blockchain technology.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern Tech Stack**: Built with Next.js 13+ (App Router), React, TypeScript, and Tailwind CSS
+- **Fully Responsive**: Mobile-first design that looks great on all devices
+- **Performance Optimized**: Lazy loading, optimized images, and smooth animations
+- **Accessibility**: ARIA labels and semantic HTML for better accessibility
+- **Beautiful Animations**: Smooth scroll animations powered by Framer Motion
+
+## 📋 Prerequisites
+
+Before running this project, make sure you have:
+
+- Node.js 16.8 or later
+- npm or yarn package manager
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd trustsig-landingPage
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Required Assets
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Make sure the following images are placed in the `/public` directory:
 
-## Learn More
+- `heroBackgroundPattern.jpg` - Hero section background
+- `logo.png` - TrustSig logo
+- `RiskFreeBadge.png` - Risk-free badge
+- `ImmutableContracts.jpg` - Feature image
+- `RobustCompliance.jpg` - Feature image
+- `VerifiableTrust.jpg` - Feature image
+- `Step1Upload_Tokenize.png` - Process step icon
+- `Step2SmartContractExecution.png` - Process step icon
+- `Step3On-ChainArbitration.png` - Process step icon
+- `SecurityComplianceBadgesISO27001.png` - Compliance badge
+- `GDPRCompliant.png` - Compliance badge
+- `NEARProtocolSecured.png` - Security badge
+- `IPFSArweaveEncryption.png` - Technology badge
+- `EnterpriseLogosBarPlaceholderLogos.png` - Enterprise partners logos
+- `Bottom-BandAccentTexture.jpg` - Footer background texture
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Design System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Colors
+- **Deep Navy Blue**: `#0A1128`
+- **Charcoal Gray**: `#36454F`
+- **Silver Accent**: `#C0C0C0`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Typography
+- **Headings**: Trajan Pro (with Georgia fallback)
+- **Body**: Montserrat (with system-ui fallback)
 
-## Deploy on Vercel
+## 📱 Sections
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Hero Section**: Full-screen hero with CTA
+2. **Feature Trio**: 3-column grid showcasing main features
+3. **Feature Carousel**: 6 feature cards in a responsive layout
+4. **How It Works**: 3-step process visualization
+5. **Enterprise Logos**: Partner logos display
+6. **Compliance Shields**: Security and compliance badges
+7. **Social Proof**: User testimonials
+8. **CTA Footer**: Email capture with final call-to-action
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏗️ Project Structure
+
+```
+trustsig-landingPage/
+├── app/
+│   ├── globals.css      # Global styles and Tailwind directives
+│   ├── layout.tsx       # Root layout with metadata
+│   └── page.tsx         # Main landing page
+├── components/
+│   ├── Hero.tsx         # Hero section component
+│   ├── FeatureTrio.tsx  # Feature trio grid
+│   ├── FeatureCarousel.tsx # Feature carousel
+│   ├── HowItWorks.tsx   # Process steps
+│   ├── EnterpriseLogos.tsx # Partner logos
+│   ├── ComplianceShields.tsx # Compliance badges
+│   ├── SocialProof.tsx  # Testimonials
+│   └── CTAFooter.tsx    # Footer with CTA
+├── public/              # Static assets (images)
+├── package.json         # Dependencies
+├── tailwind.config.ts   # Tailwind configuration
+└── tsconfig.json        # TypeScript configuration
+```
+
+## 🚀 Deployment
+
+To build for production:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The built files will be in the `.next` directory. You can deploy to:
+
+- Vercel (recommended for Next.js)
+- Netlify
+- AWS Amplify
+- Any static hosting service
+
+## 📄 License
+
+This project is proprietary to TrustSig. All rights reserved.
+
+## 🤝 Contributing
+
+For any questions or contributions, please contact the TrustSig development team. 

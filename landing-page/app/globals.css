@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 10, 17, 40;
+    --background-end-rgb: 10, 17, 40;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply bg-silver hover:bg-gray-200 text-navy-blue font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl;
+  }
+}
+
+/* Custom font imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); 
