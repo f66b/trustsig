@@ -54,7 +54,7 @@ export default function SocialProof() {
               viewport={{ once: true }}
               className="bg-charcoal/30 rounded-lg p-6 border border-silver/10 relative"
             >
-              <div className="absolute -top-4 left-6 text-6xl text-silver/20 font-serif">"</div>
+              <div className="absolute -top-4 left-6 text-6xl text-silver/20 font-serif">&quot;</div>
               
               <blockquote className="relative z-10">
                 <p className="text-gray-300 italic mb-4 text-lg">

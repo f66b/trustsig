@@ -33,7 +33,7 @@ export default function Hero() {
           alt="TrustSig Logo"
           width={150}
           height={60}
-          className="w-auto h-12 md:h-16"
+          className="w-auto h-16 md:h-20 lg:h-24"
         />
       </motion.div>
 
