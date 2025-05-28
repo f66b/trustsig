@@ -9,7 +9,7 @@ const testimonials = [
     company: "Tech Startup",
   },
   {
-    quote: "There's no decentralized way to resolve contract disputes efficiently.",
+    quote: "There&apos;s no decentralized way to resolve contract disputes efficiently.",
     author: "Legal Operations Director",
     company: "Fortune 500",
   },
