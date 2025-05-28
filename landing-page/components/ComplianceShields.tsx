@@ -11,7 +11,7 @@ const shields = [
   { image: iso27001, title: 'ISO 27001 Certified' },
   { image: gdpr, title: 'GDPR Compliant' },
   { image: nearProtocol, title: 'NEAR Protocol Secured' },
-  { image: ipfsArweave, title: 'IPFS & Arweave Encrypted' },
+  { image: ipfsArweave, title: 'IPFS &amp; Arweave Encrypted' },
 ]
 
 export default function ComplianceShields() {
@@ -25,7 +25,7 @@ export default function ComplianceShields() {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-serif font-bold text-center mb-12 text-white"
         >
-          Security & Compliance
+          Security &amp; Compliance
         </motion.h2>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

@@ -12,7 +12,7 @@ import ipfs from '/public/IPFSArweaveEncryption.png'
 const features = [
   {
     image: step1,
-    title: 'Upload & Tokenize',
+    title: 'Upload &amp; Tokenize',
     text: 'Convert legal docs (PDF/DOCX) into blockchain assets.',
   },
   {
@@ -38,7 +38,7 @@ const features = [
   {
     image: ipfs,
     title: 'Encrypted Storage',
-    text: 'Files stored securely via IPFS & Arweave.',
+    text: 'Files stored securely via IPFS &amp; Arweave.',
   },
 ]
 
